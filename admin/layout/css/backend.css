@@ -1,0 +1,132 @@
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #E5E5E5;
+}
+
+.login .btn {
+    background-color: #008dde;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 1em;
+
+}
+
+.nav > li > a, .navbar-brand {
+    padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+    min-width: 180px;
+    padding: 0px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+
+}
+
+.dropdown-menu > li > a {
+    color: white;
+    padding:8px 10px;
+}
+h1{
+    font-size: 40px;
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #666;
+}
+.form-control{
+    position: relative;
+}
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    color: #fe4432;
+}
+.show-pass{
+    position: absolute;
+    top: 7px;
+    right: -16px;
+}
+.main-table{
+    -webkit-box-shadow: 0 7px 15px #CCCCCC;
+    -moz-box-shadow: 0 7px 15px #CCCCCC;
+    box-shadow: 0 7px 15px #CCCCCC;
+}
+.main-table td{
+    background-color: #FFFFFF;
+    vertical-align: middle !important;
+}
+.main-table .btn{
+    padding: 3px 10px;
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+}
+.home-state .state{
+    padding: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+.home-state .state a{
+    color: #FFFFFF;
+}
+.home-state .state a:hover{
+    text-decoration: none;
+}
+
+.home-state .st-members{
+    background-color: #3498db;
+}
+.home-state .st-items{
+    background-color: #8e44ad;
+}
+.home-state .st-pending{
+    background-color: #27ae60;
+}
+.home-state .st-comments{
+    background-color: #34495e;
+}
+.home-state .state span{
+    display: block;
+    font-size: 60px;
+}
+.latest{
+    margin-top: 40px;
+}
+
